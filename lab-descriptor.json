@@ -1,72 +1,82 @@
 {
-    "broadArea": {
-        "name": "Chemical Sciences",
-        "link": "https://www.vlab.co.in/broad-area-chemical-sciences"
-    },
-    "lab": "Physical chemistry",
-    "deployLab": true,
-    "phase": 2,
-    "collegeName": "IIITH",
-    "baseUrl": "ccnsb06-iiith.vlabs.ac.in",
-    "introduction": "Physical chemistry Virtual laboratory is designed to introduce some spectroscopic and analytical techniques to students at various levels. Depending upon the nature of the source (energy), the material and their interaction there are various spectroscopic techniques that are widely studied in understanding chemical molecules and processes.",
-    "experiments": [
-         {
+  "broadArea": {
+    "name": "Chemical Sciences",
+    "link": "https://www.vlab.co.in/broad-area-chemical-sciences"
+  },
+  "lab": "Physical chemistry",
+  "deployLab": true,
+  "phase": 2,
+  "collegeName": "IIITH",
+  "baseUrl": "ccnsb06-iiith.vlabs.ac.in",
+  "introduction": "Physical chemistry Virtual laboratory is designed to introduce some spectroscopic and analytical techniques to students at various levels. Depending upon the nature of the source (energy), the material and their interaction there are various spectroscopic techniques that are widely studied in understanding chemical molecules and processes.",
+  "experiments": [
+    {
       "name": "Instrumentation and working principles of infra red (IR) spectroscopy using salt plates",
       "short-name": "infra-red-spectroscopy",
       "repo": "https://github.com/virtual-labs/exp-infra-red-spectroscopy-iiith",
       "tag": "v1.0.0",
       "deploy": true
-         },
-         {
+    },
+    {
       "name": "Instrumentation and working principles of solutions infra red (IR) spectroscopy",
       "short-name": "solutions-infra-red-spectroscopy",
       "repo": "https://github.com/virtual-labs/exp-solutions-infra-red-spectroscopy-iiith",
       "tag": "v1.0.0",
       "deploy": true
-         },
-         {
+    },
+    {
       "name": "Instrumentation and working principles of mass spectroscopy",
       "short-name": "mass-spectroscopy",
       "repo": "https://github.com/virtual-labs/exp-mass-spectroscopy-iiith",
       "tag": "v1.0.0",
       "deploy": true
-         },
-         {
+    },
+    {
       "name": "Determination of molar mass of simple compounds using mass spectroscopy",
       "short-name": "determination-molar-mass",
       "repo": "https://github.com/virtual-labs/exp-determination-molar-mass-iiith",
       "tag": "v1.0.0",
       "deploy": true
-         },
-         {
+    },
+    {
       "name": "Nuclear magnetic resosnace spectrocopy and evaulation of simple 1H NMR spectra of select organic compounds",
       "short-name": "nuclear-magnetic-resosnace-spectrocopy",
       "repo": "https://github.com/virtual-labs/exp-nuclear-magnetic-resosnace-spectrocopy-iiith",
       "tag": "v1.0.0",
       "deploy": true
-         },
-         {
+    },
+    {
       "name": "Identification of unknown components using spectroscopic techniques",
       "short-name": "spectroscopic-techniques",
       "repo": "https://github.com/virtual-labs/exp-spectroscopic-techniques-iiith",
       "tag": "v1.0.0",
       "deploy": true
-         }
-    ],
-    "targetAudience": {
-        "UG": ["Final year of B.Tech. Chemical/Materials/Biotechnology Engineering","B. Pharm., Biomed. Engg."],
-        "PG": ["Chemistry, Chemical/Materials/Biomedical Engg., Biotech & Pharm.","1st year of Ph.D. in Chemistry related fields"]
-    },
-    "objective": "Experiments of this lab will cover the following techniques: </br>Proton Nuclear Magnetic Resonance Spectroscopy in which the hydrogen nuclei of the compound/substance is studied in order to determine the structure of organic compound.</br> Infrared spectroscopy, involving the infrared region of the electromagnetic spectrum, is used for determination of functional groups in the compound.</br>Mass spectroscopy is an analytical tool to weigh the molar masses of a given molecule",
-    "courseAlignment": {
-        "description": "",
-        "universities": ["Chemical sciences curriculum covered by the lab.",
-                         "Majority of the Spectroscopy and Analytical techniques that are studied at the undergraduate and post-graduate chemical - sciences courses have been covered.",
-                         "Electron Paramagnetic Resonance Spectroscopy (EPR)",
-                         "Nuclear Magnetic Resonance Spectroscopy (NMR)",
-                         "Infra-Red Spectroscopy (IR)",
-                         "Electron Ionisation or Impact mass spectroscopy (EI-MS) and",
-                         "Cyclic Voltammetry (CV)"
-]
     }
+  ],
+  "targetAudience": {
+    "UG": [
+      "Final year of B.Tech. Chemical/Materials/Biotechnology Engineering",
+      "B. Pharm., Biomed. Engg."
+    ],
+    "PG": [
+      "Chemistry, Chemical/Materials/Biomedical Engg., Biotech & Pharm.",
+      "1st year of Ph.D. in Chemistry related fields"
+    ]
+  },
+  "objective": "Experiments of this lab will cover the following techniques: </br>Proton Nuclear Magnetic Resonance Spectroscopy in which the hydrogen nuclei of the compound/substance is studied in order to determine the structure of organic compound.</br> Infrared spectroscopy, involving the infrared region of the electromagnetic spectrum, is used for determination of functional groups in the compound.</br>Mass spectroscopy is an analytical tool to weigh the molar masses of a given molecule",
+  "courseAlignment": {
+    "description": "",
+    "universities": [
+      "Chemical sciences curriculum covered by the lab.",
+      "Majority of the Spectroscopy and Analytical techniques that are studied at the undergraduate and post-graduate chemical - sciences courses have been covered.",
+      "Electron Paramagnetic Resonance Spectroscopy (EPR)",
+      "Nuclear Magnetic Resonance Spectroscopy (NMR)",
+      "Infra-Red Spectroscopy (IR)",
+      "Electron Ionisation or Impact mass spectroscopy (EI-MS) and",
+      "Cyclic Voltammetry (CV)"
+    ]
+  },
+  "exp_name": "Identification of unknown components using spectroscopic techniques",
+  "exp_short_name": "spectroscopic-techniques",
+  "version": "v0.14.0"
 }
