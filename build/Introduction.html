@@ -206,11 +206,14 @@
         Array.from(menu.children)
           .filter((mi) => {
             console.log(Array.from(mi.children)[0].href);
+
+            console.log(window.location.href);
+            console.log(
+              Array.from(mi.children)[0].href === window.location.href
+            );
             return Array.from(mi.children)[0].href === window.location.href;
           })
           .map((mi) => mi.classList.add("current-item"));
-        Array.from(menu.children).map((m) => console.log(m));
-        console.log(window.location.href);
       });
     </script>
     <script src="js/toggleSidebar.js">
