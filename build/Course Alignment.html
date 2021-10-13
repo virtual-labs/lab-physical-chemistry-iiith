@@ -24,7 +24,7 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/vlabs-style.css" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
@@ -38,21 +38,22 @@
       </iframe>
     </noscript>
     <!--End Google Tag Manager (noscript)-->
+
+    <!-- navbar -->
     <header class="vlabs-header sticky-top bg-white">
-      <!-- navbar -->
-            <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+      <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
         
-	      <button class="navbar-toggler px-4" type="button" onclick="toggle()">
-		<span class="navbar-toggler-icon"></span>
-	      </button>
-	      
+        <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
         <div class="d-flex justify-content-center">        
           <a href="https://vlab.co.in" class="navbar-brand">
-          <img src="images/vlabs-color-small-moe.jpg" alt="vlabs logo">
+            <img src="images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
           </a>
         </div>
         
-        <div id="headerNavbar" class="border-top flex-grow-1 d-flex align-items-center">
+        <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
           <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
             <li class="nav-item px-2 m-1">
               <a href="https://vlab.co.in">HOME</a>
@@ -67,6 +68,9 @@
         </div>
       </nav>
     </header>
+    
+
+
     <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
       <div class="row py-4 px-4 breadcrumbs"><a href="https://www.vlab.co.in/broad-area-chemical-sciences" class="sidebar-a">
 	Chemical Sciences
