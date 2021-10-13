@@ -84,7 +84,7 @@
                 </h5>
                 <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body nav-menu popupMenuItems">  <div class="d-flex nav-menu-body">
+              <div class="modal-body nav-menu popupMenuItems" id="popupMenu">  <div class="d-flex nav-menu-body">
     <a href="Introduction.html" class="p-2">	
       Introduction	
     </a>
@@ -204,14 +204,18 @@
 
     <script>
       window.addEventListener("DOMContentLoaded", (event) => {
-        const menu = document.getElementById("menu");
-        Array.from(menu.children)
-          .filter(
-            (mi) => Array.from(mi.children)[0].href === window.location.href
-          )
-          .forEach((mi) =>
-            Array.from(mi.children)[0].classList.add("current-item")
-          );
+        const setActiveItem = (id) => {
+          const menu = document.getElementById(id);
+          Array.from(menu.children)
+            .filter(
+              (mi) => Array.from(mi.children)[0].href === window.location.href
+            )
+            .forEach((mi) =>
+              Array.from(mi.children)[0].classList.add("current-item")
+            );
+        };
+        setActiveItem("popupMenu");
+        setActiveItem("menu");
       });
     </script>
     <script src="js/toggleSidebar.js">
