@@ -213,9 +213,10 @@
       window.addEventListener("DOMContentLoaded", (event) => {
         const menu = document.getElementById("menu");
         Array.from(menu.children)
-          .filter(
-            (mi) => Array.from(mi.children)[0].href === window.location.href
-          )
+          .filter((mi) => {
+            console.log(Array.from(mi.children)[0]);
+            return Array.from(mi.children)[0].href === window.location.href;
+          })
           .map((mi) => mi.classList.add("current-item"));
         Array.from(menu.children).map((m) => console.log(m));
         console.log(window.location.href);
