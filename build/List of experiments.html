@@ -237,7 +237,7 @@
         Array.from(menu.children)
           .filter((mi) => mi.children[0].href === window.location.href)
           .map((mi) => mi.classList.add("current-item"));
-        menu.children.map((m) => console.log(m));
+        Array.from(menu.children).map((m) => console.log(m));
         console.log(window.location.href);
       });
     </script>
