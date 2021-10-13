@@ -3,7 +3,6 @@ const myModal = new bootstrap.Modal(document.getElementById("popupMenu"));
 const breakpointLg = 992;
 
 function toggle() {
-  const breakpointLg = 992;
   const w = $(this).width();
   if (w < breakpointLg) {
     myModal.toggle();
