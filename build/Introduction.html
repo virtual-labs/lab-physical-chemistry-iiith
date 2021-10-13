@@ -207,7 +207,9 @@
           .filter(
             (mi) => Array.from(mi.children)[0].href === window.location.href
           )
-          .forEach((mi) => mi.classList.add("current-item"));
+          .forEach((mi) =>
+            Array.from(mi.children)[0].classList.add("current-item")
+          );
       });
     </script>
     <script src="js/toggleSidebar.js">
