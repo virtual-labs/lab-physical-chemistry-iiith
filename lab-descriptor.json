@@ -39,9 +39,9 @@
       "deploy": true
     },
     {
-      "name": "Nuclear magnetic resosnace spectrocopy and evaulation of simple 1H NMR spectra of select organic compounds",
-      "short-name": "nuclear-magnetic-resosnace-spectrocopy",
-      "repo": "https://github.com/virtual-labs/exp-nuclear-magnetic-resosnace-spectrocopy-iiith",
+      "name": "Nuclear magnetic resonance spectroscopy and evaluation of simple 1H NMR spectra of select organic compounds",
+      "short-name": "nuclear-magnetic-resonance-spectrocopy",
+      "repo": "https://github.com/virtual-labs/exp-nuclear-magnetic-resonance-spectroscopy-iiith",
       "tag": "v1.0.0",
       "deploy": true
     },
