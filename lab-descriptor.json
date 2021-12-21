@@ -14,42 +14,42 @@
       "name": "Instrumentation and working principles of infra red (IR) spectroscopy using salt plates",
       "short-name": "infra-red-spectroscopy",
       "repo": "https://github.com/virtual-labs/exp-infra-red-spectroscopy-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.4",
       "deploy": true
     },
     {
       "name": "Instrumentation and working principles of solutions infra red (IR) spectroscopy",
       "short-name": "solutions-infra-red-spectroscopy",
       "repo": "https://github.com/virtual-labs/exp-solutions-infra-red-spectroscopy-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.5",
       "deploy": true
     },
     {
       "name": "Instrumentation and working principles of mass spectroscopy",
       "short-name": "mass-spectroscopy",
       "repo": "https://github.com/virtual-labs/exp-mass-spectroscopy-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "Determination of molar mass of simple compounds using mass spectroscopy",
       "short-name": "determination-molar-mass",
       "repo": "https://github.com/virtual-labs/exp-determination-molar-mass-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.2",
       "deploy": true
     },
     {
       "name": "Nuclear magnetic resonance spectroscopy and evaluation of simple 1H NMR spectra of select organic compounds",
       "short-name": "nuclear-magnetic-resonance-spectroscopy",
       "repo": "https://github.com/virtual-labs/exp-nuclear-magnetic-resonance-spectroscopy-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.3",
       "deploy": true
     },
     {
       "name": "Identification of unknown components using spectroscopic techniques",
       "short-name": "spectroscopic-techniques",
       "repo": "https://github.com/virtual-labs/exp-spectroscopic-techniques-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.3",
       "deploy": true
     }
   ],
@@ -78,5 +78,5 @@
   },
   "exp_name": "Identification of unknown components using spectroscopic techniques",
   "exp_short_name": "spectroscopic-techniques",
-  "version": "v0.58.0"
+  "version": "v0.59.0"
 }
