@@ -14,7 +14,7 @@
       "name": "Instrumentation and working principles of infra red (IR) spectroscopy using salt plates",
       "short-name": "infra-red-spectroscopy",
       "repo": "https://github.com/virtual-labs/exp-infra-red-spectroscopy-iiith",
-      "tag": "v1.0.4",
+      "tag": "v1.0.5",
       "deploy": true
     },
     {
@@ -78,5 +78,5 @@
   },
   "exp_name": "Identification of unknown components using spectroscopic techniques",
   "exp_short_name": "spectroscopic-techniques",
-  "version": "v0.59.0"
+  "version": "v0.60.0"
 }
