@@ -1,0 +1,10 @@
+name: production-deployment-lab-ph3
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  call-workflow-A:
+    uses: virtual-labs/vlabs-workflows/.github/workflows/ph3-lab-deploy-S3.yml@main
+    secrets: inherit
