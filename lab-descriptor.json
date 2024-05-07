@@ -1,7 +1,8 @@
 {
   "broadArea": {
     "name": "Chemical Sciences",
-    "link": "https://www.vlab.co.in/broad-area-chemical-sciences"
+    "link": "https://www.vlab.co.in/broad-area-chemical-sciences",
+    "code":"CHEMSCI"
   },
   "lab": "Physical chemistry",
   "deployLab": true,
@@ -75,8 +76,5 @@
       "Electron Ionisation or Impact mass spectroscopy (EI-MS) and",
       "Cyclic Voltammetry (CV)"
     ]
-  },
-  "exp_name": "Identification of unknown components using spectroscopic techniques",
-  "exp_short_name": "spectroscopic-techniques",
-  "version": "v0.60.0"
+  }
 }
