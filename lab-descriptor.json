@@ -5,7 +5,8 @@
     "code":"CHEMSCI"
   },
   "lab": "Physical chemistry",
-  "deployLab": true,
+  "lab_display_name": "Physical Chemistry",
+    "deployLab": true,
   "phase": 2,
   "collegeName": "IIITH",
   "baseUrl": "ccnsb06-iiith.vlabs.ac.in",
